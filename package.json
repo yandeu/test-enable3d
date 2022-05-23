@@ -1,12 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "build": "esbuild main.js --bundle --outfile=bundle.js"
+    "build": "npx webpack"
   },
   "dependencies": {
     "enable3d": "^0.25.1"
   },
   "devDependencies": {
-    "esbuild": "^0.14.39"
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
